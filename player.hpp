@@ -1,3 +1,12 @@
+// player.hpp
+// Ivy Swenson
+// Started: 2024-09-05
+// Updated: 2024-09-10
+//
+// For CS 311 Fall 2024
+// Header for class Player
+// Time of day: realname, username, gamesplayed
+
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
 
