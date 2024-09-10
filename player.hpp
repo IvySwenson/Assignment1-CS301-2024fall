@@ -11,9 +11,19 @@
 #define PLAYER_HPP
 
 #include <string>
+// For std::string
 #include <iostream>
 
-// Player class declaration
+
+
+// *********************************************************************
+// class Player - Class definition
+// *********************************************************************
+
+
+// *****Player class declaration*****
+// Player: realname, username, gamesplayed
+
 class Player {
 private:
     // Private member variables
@@ -60,4 +70,4 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const Player& player);
 };
 
-#endif  // PLAYER_HPP
+#endif  // #ifndef PLAYER_HPP
