@@ -12,7 +12,7 @@
 #include <cassert>
 // For assert
 #include <iostream>
-#include <stream>
+#include <sstream>
 
 
 // *********************************************************************
