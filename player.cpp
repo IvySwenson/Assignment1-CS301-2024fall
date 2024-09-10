@@ -1,7 +1,24 @@
-﻿#include "player.hpp"
+// player.cpp
+// Ivy Swenson
+// Started: 2024-09-05
+// Updated: 2024-09-10
+//
+// For CS 311 Fall 2024
+// Source for class Player
+// Time of day: realname, username, gamesplayed
+
+#include "player.hpp"
+// For class Player
 #include <cassert>
+// For assert
 #include <iostream>
-#include <sstream>
+#include <stream>
+
+
+// *********************************************************************
+// class Player - Definitions of member functions
+// *********************************************************************
+
 
 // Default constructor
 Player::Player()
